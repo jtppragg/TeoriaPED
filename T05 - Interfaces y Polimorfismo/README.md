@@ -8,12 +8,18 @@ Material de apoyo para las clases de teoría de Programación en Entornos Distri
 
 ### Ejemplo: Orquesta
 
+Primero definimos la interfaz común a cualquier instrumento de la orquesta:
+
 ```java
 public interface Instrumento {
     String getTipo();
     String suena();
 }
+```
 
+A continuación hacemos que los diferentes instrumentos implementen esta interfaz:
+
+```java
 public class Flauta implements Instrumento {
     @Override
     public String getTipo() {
@@ -24,6 +30,18 @@ public class Flauta implements Instrumento {
     public String suena() {
         return "flauteando";
     }  
+}
+
+public class Tambor implements Instrumento {
+    @Override
+    public String getTipo() {
+        return "percusión";
+    }
+
+    @Override
+    public String suena() {
+        return "pom pom";
+    }   
 }
 
 // Lo mismo para Guitarra, Piano, etc.
