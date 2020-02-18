@@ -4,7 +4,7 @@ Material de apoyo para las clases de teoría de Programación en Entornos Distri
 
 (c) 2020, Gorka Prieto Agujeta <<gorka.prieto@ehu.eus>>
 
-[T01 - Intro](T01 - Intro/README.md)  
+[T01 - Intro](T01%20-%20Intro/README.md)  
 [T02 - Clases y Objetos](T02 - Clases y Objetos/README.md)  
 [T03 - Arrays y Cadenas](T03 - Arrays y Cadenas/README.md)  
 [T04 - Herencia y Composición](T04 - Herencia y Composición/README.md)  
