@@ -1,3 +1,8 @@
+# NetBeans
+build/
+dist/
+private/
+
 # Compiled class file
 *.class
 
