@@ -33,5 +33,8 @@ eus
 
 CLASSPATH:
 - Permite utilizar código que está guarado en diferentes ubicaciones del disco duro.
-- Desde consola: `CLASSPATH=$CLASSPATH:../../../EjemploJar/build/classes`
+- Desde consola cualquiera de las siguientes opciones:
+	- `CLASSPATH=$CLASSPATH:../../../EjemploJar/build/classes`
+	- `java -cp ../../../EjemploJar/dist/EjemploJar.jar:. eus.ehu.ped.Saluda`
+	- `java -cp ../../../EjemploJar/build/classes/:. eus.ehu.ped.Saluda`
 - Desde NetBeans: clic con el derecho en `Libraries`
