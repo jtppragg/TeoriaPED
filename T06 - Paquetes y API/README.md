@@ -41,4 +41,6 @@ CLASSPATH:
 	- `CLASSPATH=$CLASSPATH:../../../EjemploJar/build/classes`
 	- `java -cp ../../../EjemploJar/dist/EjemploJar.jar:. eus.ehu.ped.Saluda`
 	- `java -cp ../../../EjemploJar/build/classes/:. eus.ehu.ped.Saluda`
-- Desde NetBeans: clic con el derecho en `Libraries`
+- Desde NetBeans clic con el derecho en `Libraries`:
+
+![ClassPath](imgs/classpath.png)
