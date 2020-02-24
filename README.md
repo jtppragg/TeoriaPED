@@ -12,3 +12,4 @@ Material de apoyo para las clases de teoría de Programación en Entornos Distri
 [T06 - Paquetes y API](T06%20-%20Paquetes%20y%20API/README.md)  
 [T07 - Excepciones](T07%20-%20Excepciones/README.md)  
 [T08 - Ficheros](T08%20-%20Ficheros/README.md)  
+[Varios](Varios/README.md)
