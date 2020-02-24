@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package eus.ehu.ped;
+package eus.ehu.ped.sub;
 
 /**
  *
@@ -11,11 +11,8 @@ package eus.ehu.ped;
  */
 public class Ejemplo1 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public String getNombre() {
+        return "Gorka";
     }
     
 }

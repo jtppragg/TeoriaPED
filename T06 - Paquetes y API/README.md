@@ -28,4 +28,10 @@ eus
 ¡Cuidado!
 - El nombre del paquete y el subdirectorio tienen que coincidir!!
 - No os olvidéis de eliminar los imports que no uséis. Lo puede hacer Netbeans automáticamente:
-(imgs/save.png)
+
+[NetBeans](imgs/save.png)
+
+CLASSPATH:
+- Permite utilizar código que está guarado en diferentes ubicaciones del disco duro.
+- Desde consola: `CLASSPATH=$CLASSPATH:../../../EjemploJar/build/classes`
+- Desde NetBeans: clic con el derecho en `Libraries`
