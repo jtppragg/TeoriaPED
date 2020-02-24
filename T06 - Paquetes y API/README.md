@@ -7,10 +7,12 @@ Material de apoyo para las clases de teoría de Programación en Entornos Distri
 ## Paquetes
 
 Ventajas:
+
 - Espacio de nombres
 - Librerías
 
 Recomendaciones:
+
 - `ped.ehu.eus` -> `eus.ehu.ped`
 - Todo en minúsculas
 
@@ -25,13 +27,15 @@ eus
 		hacienda (-> eus.gobierno.hacienda)
 ```
 
-¡Cuidado!
-- El nombre del paquete y el subdirectorio tienen que coincidir!!
+**¡Cuidado!**
+
+- El nombre del paquete y el subdirectorio tienen que coincidir.
 - No os olvidéis de eliminar los imports que no uséis. Lo puede hacer Netbeans automáticamente:
 
 ![NetBeans](imgs/save.png)
 
 CLASSPATH:
+
 - Permite utilizar código que está guarado en diferentes ubicaciones del disco duro.
 - Desde consola cualquiera de las siguientes opciones:
 	- `CLASSPATH=$CLASSPATH:../../../EjemploJar/build/classes`
