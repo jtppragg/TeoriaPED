@@ -93,7 +93,7 @@ section .columns {
 }
 
 section .break {
-    break-after: column;
+    /*break-after: column;*/
     opacity: 0;
 }
 
