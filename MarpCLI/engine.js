@@ -1,0 +1,13 @@
+const { Marp } = require('@marp-team/marp-core')
+const markdownItContainer = require('markdown-it-container')
+
+module.exports = (opts) => new Marp(opts)
+	.use(markdownItContainer, 'columns')
+	.use(markdownItContainer, 'note')
+	.use(require('markdown-it-mark'))
+	.use(require('markdown-it-smartarrows'))
+	.use(require('markdown-it-center-text'))
+	.use(require('markdown-it-wiki-toc'), {tocTitle: null, maxDepth: 2})
+	.use(require('markdown-it-attrs'))
+	.use(require('markdown-it-sup'))
+	.use(require('markdown-it-multimd-table'), {multiline: true, rowspan: true})

@@ -1,0 +1,126 @@
+@import 'default';
+
+* {
+    color: #23373B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0px;
+}
+
+.h1 {
+    border-bottom: none;
+    /*color: #246;*/
+    color: #23373B;
+    font-size: 1.6em;    
+}
+
+.h2 {
+    border-bottom: none;
+    font-size: 1.3em;
+}
+
+.h3 {
+    font-size: 1.1em;
+}
+
+.h4 {
+    font-size: 1.05em;
+}
+
+.h5 {
+    font-size: 1em;
+}
+
+.h6 {
+    font-size: 0.9em;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: bold;
+}
+
+.s1 {
+    font-size: 1.6em;
+}
+
+.s2 {
+    font-size: 1.3em;
+}
+
+.s3 {
+    font-size: 1.1em;
+}
+
+.line {
+    /*background-color: #246;*/
+    background-color: #EB811B;
+    height: 1px;
+}
+
+a {
+    /*color: #EB811B;*/
+    color: #604c38;
+}
+
+section {
+    /*font-family: 'EHUSans', sans-serif !important;*/
+    background-color: #FAFAFA;
+}
+
+section::after {
+    /*content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);*/
+}
+
+header {
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer {
+    font-style: italic;
+}
+
+strong {
+    /*color: #246;*/
+    /*color: #23373B;*/
+    /*color: #EB811B;*/
+}
+
+section .columns {
+    column-count: 2;
+    column-gap: 40px;  
+}
+
+section .break {
+    break-after: column;
+    opacity: 0;
+}
+
+section .note {
+    position: absolute;
+    left: 70px;
+    right: 70px;
+    bottom: 40px;
+    border-top: 1px solid lightgray;
+    padding-top: 5px;
+    font-size: 0.6em;
+    text-align: left;
+}
+
+ul.toc-level {
+    list-style-type: none;
+}
+
+.right {
+    text-align: right;
+}
+
+.u {
+    text-decoration: underline;
+}
+
+mark {
+    text-decoration: underline;
+    background-color: transparent;
+}
