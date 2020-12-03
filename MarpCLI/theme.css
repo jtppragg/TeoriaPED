@@ -75,6 +75,8 @@ section::after {
 header {
     font-weight: bold;
     font-style: italic;
+    right: 30px;
+    text-align: right;
 }
 
 footer {
