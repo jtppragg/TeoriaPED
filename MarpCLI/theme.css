@@ -69,7 +69,7 @@ section {
 }
 
 section::after {
-    /*content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);*/
+    content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 }
 
 header {
@@ -130,4 +130,12 @@ mark {
 img[alt~="center"] {
     display: block;
     margin: 0 auto;
+}
+
+img[alt~="lfloat"] {
+    float: left;
+}
+
+img[alt~="rfloat"] {
+    float: right;
 }
