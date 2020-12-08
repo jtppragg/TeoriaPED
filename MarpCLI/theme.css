@@ -89,13 +89,17 @@ strong {
     /*color: #EB811B;*/
 }
 
+pre, code {
+    break-inside: avoid;
+}
+
 section .columns {
     column-count: 2;
     column-gap: 40px;  
 }
 
 section .break {
-    /*break-after: column;*/
+    break-after: column;
     opacity: 0;
 }
 
