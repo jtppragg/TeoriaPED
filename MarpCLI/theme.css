@@ -117,6 +117,14 @@ section .break {
     opacity: 0;
 }
 
+pre .break-after {
+    break-after: column;
+}
+
+pre .break-before {
+    break-before: column;
+}
+
 section .note {
     position: absolute;
     left: 70px;
