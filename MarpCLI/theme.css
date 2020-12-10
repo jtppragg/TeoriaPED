@@ -72,11 +72,25 @@ section::after {
     content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 }
 
+/* Custom header */
+section::before {
+    content: attr(data-header);
+    position: absolute;
+    margin: 0;
+    color: grey;
+    font-size: 18px;
+    right: 30px;
+    top: 21px;
+    font-style: italic;
+    text-align: right;
+}
+
 header {
-    font-weight: bold;
+    /*font-weight: bold;
     font-style: italic;
     right: 30px;
-    text-align: right;
+    text-align: right;*/
+    visibility: hidden;
 }
 
 footer {
