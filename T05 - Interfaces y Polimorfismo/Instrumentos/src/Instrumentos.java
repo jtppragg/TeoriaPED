@@ -14,17 +14,18 @@ public class Instrumentos {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Instrumento[] orquesta = new Instrumento[5];
-        creaOrquesta(orquesta);
+        Instrumento[] orquesta = creaOrquesta();
         suena(orquesta, "cuerda");
     }
 
-    private static void creaOrquesta(Instrumento[] o) {
+    private static Instrumento[] creaOrquesta() {
+        Instrumento[] o = new Instrumento[5];
         o[0] = new Guitarra();
         o[1] = new Piano();
         o[2] = new Flauta();
         o[3] = new Tambor();
         o[4] = new Guitarra();
+        return o;
     }
 
     private static void suena(Instrumento[] orquesta, String tipo) {

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-marp --engine ./engine.js --theme ./theme.css --pdf "$@"
+marp --engine ./engine.js --theme ./theme.css --allow-local-files --pdf "$@"

@@ -14,7 +14,7 @@ import java.io.IOException;
  */
 public class Recurso implements Closeable {
     private String id;
-    
+
     public void open(String id) {
         this.id = id;
         System.out.println("Abierto recurso " + id);
@@ -26,5 +26,5 @@ public class Recurso implements Closeable {
             throw new IOException("No se ha podido cerrar #2");
         System.out.println("Cerrado recurso " + id);
     }
-    
+
 }
