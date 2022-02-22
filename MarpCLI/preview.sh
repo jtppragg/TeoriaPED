@@ -1,3 +1,3 @@
 #!/bin/bash
 
-marp --engine ./engine.js --theme ./theme.css --preview "$@"
+marp --html --engine ./engine.js --theme ./theme.css --preview "$@"

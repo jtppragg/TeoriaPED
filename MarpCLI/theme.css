@@ -107,9 +107,20 @@ pre, code {
     break-inside: avoid;
 }
 
-section .columns {
+section .autocols {
     column-count: 2;
-    column-gap: 40px;  
+    column-gap: 40px;
+}
+
+section .auto3cols {
+    column-count: 3;
+    column-gap: 20px;
+}
+
+section .cols {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
 }
 
 section .break {

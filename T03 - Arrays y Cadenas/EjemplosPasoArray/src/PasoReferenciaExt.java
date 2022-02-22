@@ -14,23 +14,25 @@ public class PasoReferenciaExt {
         Figura fig = new Figura();
         figs[1] = fig;
         figs[1].setNombre("Triángulo");
-        
+
         // Caso 0
         System.out.println(fig.getNombre());
-        
+        System.out.println(figs[1].getNombre());
+
         // Caso 1: un elemento del array
         metodo(fig);
         System.out.println(fig.getNombre());
-        
+
         // Caso 2: todo el array
         metodo(figs);
         System.out.println(fig.getNombre());
+        System.out.println(figs[1].getNombre());
     }
-    
+
     private static void metodo(Figura fig) {
         fig.setNombre("Cuadrado");
     }
-    
+
     private static void metodo(Figura[] figs) {
         figs[1] = new Figura();
         figs[1].setNombre("Círculo");
