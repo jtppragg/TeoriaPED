@@ -8,11 +8,16 @@
  *
  * @author gorka
  */
-public class MiClase {
+public class Telefono {
+    private String numero;
 
-    @Override
-    public String toString() {
-        return "Soy un objeto de tipo MiClase";
+    public String getNumero() {
+        return numero;
     }
 
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+
+    
 }

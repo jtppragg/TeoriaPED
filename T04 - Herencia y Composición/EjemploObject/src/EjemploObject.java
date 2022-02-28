@@ -10,13 +10,23 @@
  */
 public class EjemploObject {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        MiClase obj = new MiClase();
+        // Caso 1
+        Alumno a1 = new Alumno("11111111", "Jon", 20);
+        System.out.println(a1);        
 
-        System.out.println(obj);
+        // Caso 2
+        Alumno a2 = new Alumno("11111111", "Jon", 20);
+        if( a1 == a2 )
+            System.out.println("Mismo alumno");
+        else
+            System.out.println("Distinto alumno");
+
+        // Caso 3
+        if( a1.equals(a2) )
+            System.out.println("Mismo alumno");
+        else
+            System.out.println("Distinto alumno");
     }
 
 }
