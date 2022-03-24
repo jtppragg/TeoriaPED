@@ -20,5 +20,5 @@ public class Saluda {
         Ejemplo1 ej = new Ejemplo1();
         System.out.println("Hola " + ej.getNombre());
     }
-    
+
 }
