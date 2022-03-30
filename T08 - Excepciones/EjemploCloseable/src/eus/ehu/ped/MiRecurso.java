@@ -18,11 +18,11 @@ public class MiRecurso implements Closeable {
     public MiRecurso(int id) {
         this.id = id;
     }
-        
+
     public void open() {
         System.out.println("Abierto #" + id);
     }
-    
+
     public void work() {
         System.out.println("Trabajando #" + id);
     }
@@ -30,5 +30,5 @@ public class MiRecurso implements Closeable {
     @Override
     public void close() throws IOException {
         System.out.println("Cerrado #" + id);
-    }    
+    }
 }

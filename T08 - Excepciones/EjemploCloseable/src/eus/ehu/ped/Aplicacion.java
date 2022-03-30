@@ -29,5 +29,5 @@ public class Aplicacion {
             System.err.println(ex.getMessage());
         }
     }
-    
+
 }
