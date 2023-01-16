@@ -27,7 +27,7 @@ public class TxtClient {
             if( br.readLine().equals("OK") ) {
                 int num = Integer.parseInt(br.readLine());
                 for( int i = 0; i < num; i++ )
-                    System.out.println(br.readLine());
+                    System.out.printf("%s (%s bytes)\n", br.readLine(), br.readLine());
             } else
                 System.out.println("Error: " + br.readLine());
         } catch( Exception e ) {

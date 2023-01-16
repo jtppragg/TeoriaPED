@@ -9,8 +9,8 @@ import java.io.OutputStream;
 
 public class EjemploCopiaBuffers {
     public static void main(String[] args) {
-        File org = new File("/tmp/activeSession.txt");
-        File dst = new File("/tmp/prueba");
+        File org = new File("/home/gorka/Descargas/Temp", "hola.pdf");
+        File dst = new File("/home/gorka/Descargas/Temp/prueba/copia.pdf");
 
         if( !org.exists() || !org.isFile() ) {
             System.err.println("No existe el fichero de entrada");

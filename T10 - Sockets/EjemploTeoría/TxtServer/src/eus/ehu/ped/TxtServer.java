@@ -20,7 +20,7 @@ import java.net.Socket;
 public class TxtServer {
 
     public static void main(String[] args) {
-        try(ServerSocket ss = new ServerSocket(Service.PORT)) {            
+        try(ServerSocket ss = new ServerSocket(Service.PORT)) {
             do {
                 System.out.println("Esperando cliente ...");
                 try(Socket cs = ss.accept()) {
@@ -43,18 +43,22 @@ public class TxtServer {
             PrintWriter pw = new PrintWriter(cs.getOutputStream(), true);
         ) {
             File dir = new File(br.readLine());
-            String[] entries = dir.list();
+            //String[] entries = dir.list();
+            File[] entries = dir.listFiles();
             if( entries == null ) {
                 pw.println("KO");
                 pw.println("No existe el directorio");
             } else {
                 pw.println("OK");
                 pw.println(entries.length);
-                for( String entry : entries )
-                    pw.println(entry);
+                //for( String entry : entries )
+                for( File entry : entries ) {
+                    pw.println(entry.getAbsolutePath());
+                    pw.println(entry.length());
+                }
             }
             return dir;
         }
     }
-    
+
 }
