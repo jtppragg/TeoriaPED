@@ -22,7 +22,7 @@ public class Factorial {
             int fact = factorial(num);
             return fact;
         } catch (NumberFormatException e) {
-            throw new Exception("Debes introducir un número entero");
+            throw new Exception("Debes introducir un número entero", e);
         }
     }
 

@@ -15,15 +15,15 @@ public class Aplicacion {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int[][] array1 = new int[3][2];        
+        int[][] array1 = new int[3][2];
         array1[2][1] = 3;
         System.out.println(array1[2][1]);
-        
-        int[][] array2 = new int[3][];   
+
+        int[][] array2 = new int[3][];
         //array2[2] = new int[3];
         array2[2][1] = 3;   // Error!
         System.out.println(array1[2][1]);
-        
+
         int[][] b = {
             {1, 2, 3, 4, 5},
             {1, 2, 3, 4, 5, 6, 7},
@@ -31,5 +31,5 @@ public class Aplicacion {
         };
         System.out.println(b[1][2]);
     }
-    
+
 }
